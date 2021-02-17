@@ -1,0 +1,222 @@
+body,html{
+	background-image: url(dhanesh1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+header{
+
+	justify-content: center;
+	text-align: center;
+	/*border : 5px solid white;*/
+	
+}
+.h2{
+	padding-top: 20px;
+	color: white;
+	font-size: 2rem;
+
+}
+
+.icon{
+	letter-spacing: 10px;
+}
+p a{
+	color: white;
+	text-decoration: none;
+
+}
+button{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+.hire-btn{
+	border: 2px solid #373636;
+	color: #373636;
+}
+.down-cv{
+	background-color: #0b0b0b;
+	color: #FFFFFF;
+	border:none;
+}
+button:active{
+	transform: scale(1.1);
+}
+.about-container{
+	width: 80%;
+	height: 100;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: 1% auto 20px auto;
+	position: relative;
+}
+.about-container img{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 250px;
+	height: 150px;
+
+
+}
+.about-me{
+	width: 90%;
+	
+}
+.about-me p:nth-child(1){
+	color: #403e3e;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 0px;
+	padding-top: 10px;
+}
+.about-me p:nth-child(2){
+	color: #3e3d3d;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+	word-spacing: 5px;
+	padding-left: 5px;
+	
+}
+.about-me p:nth-child(3),
+.about-me p:nth-child(4){
+	color: #7e7d7d;
+	font-family: calibri;
+	font-size: 16px;
+	padding-left: 5px;
+}
+footer{
+	position: relative;
+	bottom: 0px;
+	width: 80%;
+	background: #ffffff;
+	margin: 1% auto 20px auto;
+	border-radius: 20px;
+
+}
+h2{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.ssc-content{
+	display: flex;
+}
+.ssc-content .box{
+	flex-basis: 50%;
+	padding: 10px 20px;
+
+}
+section{
+	position: relative;
+	bottom: 0px;
+	width: 80%;
+	background: #ffffff;
+	margin:  1% auto 20px auto;
+	border-radius: 20px;
+	height: 175px
+}
+.lan-content{
+	display: flex;
+}
+.lan-content .l-box{
+	flex-basis: 50%;
+	padding-right: 10px 20px;
+}
+.lan-content .l-box .content{
+	text-align: center;
+}
+.column{
+	width:100%;
+	float: left;
+	padding: 0px 10px;
+}
+.create-card::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and(max-width: 600px)
+{
+	.column{
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+
+	}
+}
+.card-1{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 250px;
+	margin: auto;
+	background-color: white;
+	text-align: center;
+	border-radius: 40px;
+	padding-bottom: 15px;
+}
+.card-1 img{
+	border-radius: 70%;
+	height: 70px;
+	width: 50px;
+}
+.founder{
+	color: grey;
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	font-size: 22px;
+	color: black;	
+
+}
+.container{
+	width: 80%;
+	height: auto;
+	background: #ffffff;
+	margin: 1% auto 20px auto;
+	border-radius: 20px;
+	position: relative;
+	bottom: 0px;
+	padding-bottom: 10px;
+	justify-content: center;
+}
+.col .btn{
+	border-radius: 300px;
+	border-style: #FD1F79;
+	margin-top: 10px;
+
+	
+}
+.col .btn:hover{
+ 	background-color: #E9B4CA;
+ 	border-color: #E9B4CA;
+}
+p{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 15px;
+	font-style: italic;
+	font-family: ;
+	color: white;
+	font-size: 20px;
+}
+p a{
+	color: white;
+	text-decoration: none;
+}
+p a:hover{
+	color: white;
+}
